@@ -1,6 +1,6 @@
 import axios from "axios"
 
-// Fetch World Top Stories
+// Fetch Top Stories
 const fetchWorldTopStoriesController = async (req, res) => {
     const section = req.params.section
 try {
