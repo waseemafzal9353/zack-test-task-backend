@@ -8,7 +8,7 @@ try {
     const topStories = await axios.get(url);
     res.json(topStories.data)
 } catch (error) {
-    console.error('Error:', error);
+    console.error('Error:', error.message);
     res.status(500).json({ error: 'Internal server error' });
 }
 }
