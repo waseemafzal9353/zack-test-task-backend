@@ -1,7 +1,7 @@
 import axios from "axios"
 
 // Fetch Top Stories
-const fetchWorldTopStoriesController = async (req, res) => {
+const fetchTopStoriesController = async (req, res) => {
     const section = req.params.section
     const url = `${process.env.API_URL}/${section}.json?api-key=${process.env.KEY}`
 try {
@@ -14,5 +14,5 @@ try {
 }
 
 export {
-    fetchWorldTopStoriesController,
+    fetchTopStoriesController,
 }
