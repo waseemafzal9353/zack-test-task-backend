@@ -8,3 +8,7 @@ Use npm to install the project dependencies:
 
 ```sh
 npm install
+
+## Starting server
+
+npm run start:dev
